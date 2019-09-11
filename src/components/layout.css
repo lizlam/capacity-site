@@ -7,6 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
 }
 
 footer {
@@ -624,4 +625,14 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.logo {
+  position: relative;
+  padding-top: 20px;
+}
+
+.tag {
+  position: relative;
+  padding-top: 10px;
 }

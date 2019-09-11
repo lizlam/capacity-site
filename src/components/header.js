@@ -5,8 +5,9 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#747fe0`,
       marginBottom: `1.45rem`,
+      boxShadow: `0 0 2.25rem rgba(0, 0, 255, .2)`,
     }}
   >
     <div
@@ -20,9 +21,9 @@ const Header = ({ siteTitle }) => (
       <span
         style={{
           color: `white`,
-          fontSize: `9em`,
+          fontSize: `10em`,
           display: `block`,
-          paddingTop: 20,
+          paddingTop: 50,
           marginBottom: 50,
         }}
       >
@@ -33,11 +34,12 @@ const Header = ({ siteTitle }) => (
           to="/"
           style={{
             color: `white`,
+            fontSize: `2em`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
-          <h2>All the system health information you need.</h2>
+          <h2 class="tag">All the system health information you need.</h2>
         </Link>
       </h1>
     </div>

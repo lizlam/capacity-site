@@ -3,13 +3,12 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import coins from "../images/coins.jpg"
 import SEO from "../components/seo"
 
 const StyledLink = styled(props => <Link {...props} />)`
   color: white;
-  background: rebeccapurple;
+  background: #747fe0;
   border: 1px black dotted;
   padding: 1em;
   margin: 1.5em;
@@ -21,7 +20,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 
 const StyledATag = styled.a`
   color: white;
-  background: rebeccapurple;
+  background: #747fe0;
   border: 1px black dotted;
   padding: 1em;
   margin: 1em;
@@ -47,7 +46,7 @@ const StyledParagraph = styled.p`
 const StyledDiv2 = styled.div`
   margin-top: 2em;
   color: whitesmoke;
-  background: rebeccapurple;
+  background: #747fe0;
   height: 15em;
 
   max-width: 960;
