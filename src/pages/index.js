@@ -63,7 +63,6 @@ const IndexPage = () => (
         CPU usage. Resource availability. 1 REST endpoint.
       </StyledParagraph>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
-      <img src={coins} alt="coins" />
       <StyledLink to="/get-started/">Get Started</StyledLink>
       <StyledLink to="/download/">Download</StyledLink>
       <StyledLink to="/docs/">Documentation</StyledLink>
