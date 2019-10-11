@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import video from "../video/typing.mp4"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -56,6 +57,15 @@ const StyledDiv2 = styled.div`
   padding: 10px 1.0875rem 1.45rem;
   padding-top: 5em;
 `
+const VideoDiv = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+`
 
 const IndexPage = () => (
   <>
@@ -66,6 +76,9 @@ const IndexPage = () => (
         CPU usage. Resource availability. 1 REST endpoint.
       </StyledParagraph>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
+        <video autoplay muted>
+          <source src={video} type="video/mp4" />
+        </video>
       <StyledDiv>
         <StyledLink to="/get-started/">Get Started</StyledLink>
         <StyledLink to="/download/">Download</StyledLink>
