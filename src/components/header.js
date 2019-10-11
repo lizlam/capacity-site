@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-          <h2 class="tag">All the system health information you need.</h2>
+          <h2 className="tag">All the system health information you need.</h2>
         </Link>
       </h1>
     </div>
