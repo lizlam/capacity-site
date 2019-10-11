@@ -41,6 +41,10 @@ const StyledParagraph = styled.p`
   font-family: sans-serif;
   font-size: 23px;
 `
+const StyledDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+`
 
 const StyledDiv2 = styled.div`
   margin-top: 2em;
@@ -62,13 +66,15 @@ const IndexPage = () => (
         CPU usage. Resource availability. 1 REST endpoint.
       </StyledParagraph>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
-      <StyledLink to="/get-started/">Get Started</StyledLink>
-      <StyledLink to="/download/">Download</StyledLink>
-      <StyledLink to="/docs/">Documentation</StyledLink>
-      <StyledLink to="/community/">Community</StyledLink>
-      <StyledATag href="https://github.com/rosskeenhouse/capacity">
-        Github
-      </StyledATag>
+      <StyledDiv>
+        <StyledLink to="/get-started/">Get Started</StyledLink>
+        <StyledLink to="/download/">Download</StyledLink>
+        <StyledLink to="/docs/">Documentation</StyledLink>
+        <StyledLink to="/community/">Community</StyledLink>
+        <StyledATag href="https://github.com/rosskeenhouse/capacity">
+          Github
+        </StyledATag>
+      </StyledDiv>
     </Layout>
     <StyledDiv2>
       <h2>Simple API Usage</h2>

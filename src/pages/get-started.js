@@ -8,7 +8,7 @@ const GettingStartedPage = () => (
   <Layout>
     <SEO title="Getting Started" />
     <h1>Introduction to Capacity</h1>
-    <p>Capacity is a simple daemon.</p>
+    <p>Capacity is a very simple daemon.</p>
     <h2>Why Capacity?</h2>
     <h3>For DevOps Engineers</h3>
     <p>
